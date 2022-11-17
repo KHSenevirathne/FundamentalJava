@@ -12,18 +12,7 @@ public class PrimaryRange {
         System.out.print("Enter End Point :");
         int end = input.nextInt();
 
-        for (int i = start; i<=end; i++){
 
-            if (i>1){
-                for (int j = i-1; j>1; j--){
-                    if (i%j==0){
-                        System.out.println(i);
-                        break;
-                    }
-                }
-                System.out.println("dd");
-            }
-        }
 
     }
 }
